@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Quote from "./quote/page";
 
 export default function Home() {
   return (
     <main>
-      <h1>Quotes of the day</h1>
+      <Quote />
     </main>
   );
 }
